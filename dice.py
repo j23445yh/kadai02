@@ -1,8 +1,14 @@
 import random
 
+total=0  feat:0に初期化されたtotalを追加
 for i in range(10):
     x = random.randint(1,6)
     print(str(i+1)+"回目："+str(x))
+    total +=x
+
+ave=(total)/10
+print=("平均値：",ave)
+
 
 # 期待される出力結果例
 """
